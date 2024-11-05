@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CRUD Functions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay muted loop id="bgvideo">
+        <source src="VIDEO.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+        <h1>CRUD Functions</h1>
+        <form id="userForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required>
+            <br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <br>
+            <button class=""btn btn-outline-info" type="submit">Submit</button>
+        </form>
+        <table id="userDataTable" border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>City</th>
+                    <th>Phone Number</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyAepegtIWSDJpIuiMbBni7UDlvPxIfataU",
+          authDomain: "crud-functions-5b822.firebaseapp.com",
+          projectId: "crud-functions-5b822",
+          storageBucket: "crud-functions-5b822.firebasestorage.app",
+          messagingSenderId: "311047586796",
+          appId: "1:311047586796:web:65818f8bc941df5dcb36c9",
+          measurementId: "G-9V9FFVWEXH"
+        };
+        
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+      
+</body>
+</html>
