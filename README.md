@@ -33,7 +33,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository** (or download the ZIP file) to your local machine.
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/hrrana306/CRUD-Functions-Website
    cd crud-functions
 2. **Open the HTML file** in your browser. If you're using a local server, place the project files in the server's root directory.
 
