@@ -55,6 +55,7 @@ To connect your application to Firebase:
 ## Acknowledgments
 
 - [Firebase](https://firebase.google.com/) for backend services.
+- [Firebase](https://firebase.google.com/) for hosting services.
 - Icons and assets from [Font Awesome](https://fontawesome.com/) (if used).
 
 ## Contact
