@@ -55,7 +55,6 @@ To connect your application to Firebase:
 ## Acknowledgments
 
 - [Firebase](https://firebase.google.com/) for backend services.
-- [Video.js](https://videojs.com/) for video handling (if applicable).
 - Icons and assets from [Font Awesome](https://fontawesome.com/) (if used).
 
 ## Contact
